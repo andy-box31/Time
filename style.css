@@ -3,9 +3,8 @@ html { font-size: 100%; }
 
 body{background: #222;font-family: helvetica;color: white;}
 
-.outer{width: 0rem; height:0rem;margin:20rem auto 0; position:relative;}
-	.disk{box-shadow: 0px 0px 2rem -.5rem white inset,0 0 3rem -.3rem white;border-radius: 50%;background: transparent;}
-	#a{ width: 10rem; height:10rem; position: absolute;}
+#outer{width: 0rem; height:0rem;margin:20rem auto 0; position:relative;}
+	.disk{box-shadow: 0px 0px 2rem -.5rem white inset,0px 0px 2.4rem -.5rem white;border-radius: 50%;background: transparent;position:absolute; width: 5rem; height:5rem;}	#a{ width: 10rem; height:10rem; position: absolute;}
 	#b{ width: 8rem;height: 8rem;position: absolute;top: 0;left: 0;/**/}
 	#c{position: absolute;top: 0.2rem;left: 0.3rem;/**/width: 4rem;height: 4rem;box-shadow: 0 0 1.6rem -.4rem white inset,0px 0px 1.6rem -.4rem white;}
 
